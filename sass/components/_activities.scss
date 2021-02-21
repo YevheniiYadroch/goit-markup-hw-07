@@ -1,0 +1,38 @@
+.activities {
+  padding-top: 94px;
+
+  .list {
+    display: flex;
+  }
+
+  .item {
+    margin-bottom: 94px;
+    position: relative;
+    height: 294px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.image-description {
+  display: flex;
+  background: var(--activities-label-background);
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+
+  &__label {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-accent-color);
+  }
+}

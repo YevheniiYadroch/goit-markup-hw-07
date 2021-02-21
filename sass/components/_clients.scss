@@ -1,0 +1,65 @@
+.clients {
+  padding: 94px 0;
+}
+
+.clients-links {
+  .logo-1 {
+    width: 49px;
+    height: 44px;
+  }
+
+  .logo-2 {
+    width: 40px;
+    height: 52px;
+  }
+
+  .logo-3 {
+    width: 41px;
+    height: 42px;
+  }
+
+  .logo-4 {
+    width: 79px;
+    height: 42px;
+  }
+
+  .logo-5 {
+    width: 59px;
+    height: 47px;
+  }
+
+  .logo-6 {
+    width: 88px;
+    height: 45px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--primary-icon);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--primary-icon);
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border: 1px solid var(--accent-color);
+      color: var(--accent-color);
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

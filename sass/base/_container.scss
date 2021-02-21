@@ -1,0 +1,13 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+
+  .portfolio-section & {
+    flex-direction: column;
+    align-items: center;
+  }
+}

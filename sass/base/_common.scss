@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background);
+}
+
+.list {
+  list-style: none;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+
+  .team & {
+    display: flex;
+  }
+}
